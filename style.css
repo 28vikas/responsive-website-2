@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Indie+Flower&family=Lato:ital,wght@1,300&family=Montserrat:ital,wght@0,500;0,600;1,400;1,700&family=Poppins&family=Raleway&family=Source+Code+Pro:wght@300&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: 'Raleway', sans-serif;
+}
+
+.para{
+    font-size: 1.6rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+
+}
+header{
+    text-align: center;
+   
+    margin-top: 5rem;
+}
+header h3{
+  font-size: 40px;
+}
+
+.blog-para{
+   padding: 2rem 0 ;
+}
+
+.unkwn{
+    background-color: black;
+    color: white;
+    padding: 0 .8rem;
+}
+
+
+/* ..........first
+..............flex */
+
+
+.all-flex-section{
+  display: flex;
+
+
+}
+
+.first-flex{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title{
+    width: 95%;
+background-color: white;
+
+}
+
+.title-two{
+    margin-top: 40px;
+box-shadow: 1px 1px 8px black;
+
+}
+
+.title img{
+    width: 100%;
+}
+
+.title h4{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.blog-entry-div{
+    height:  58rem;
+}
+.my-name h4{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.title-p{
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+.title-span{
+    color: rgb(141, 139, 139);
+}
+
+.para-title{
+    padding: 1rem;
+}
+
+.button-flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ 
+}
+
+button{
+    border: 1px solid rgb(207, 204, 204);
+    padding: 1.4rem;
+    width: 17rem;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: 50px;
+}
+
+button:hover{
+    background-color: rgb(229, 226, 226);
+}
+
+.cmnt{
+    font-size: 2rem;
+    margin: 2rem 2rem;
+}
+
+.zero{
+    background-color: black;
+    padding: .4rem .9rem;
+    border-radius: 50%;
+    color: white;
+}
+
+.second-flex{
+
+}
+.my-name img{
+    width: 100%;
+}
+
+
+.popular-img-flex {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: white;
+}
+
+.popular-tag{
+font-size: 2.5rem;
+font-weight: 200;
+padding: 2rem 1rem;
+background-color: rgb(232, 232, 232);
+}
+
+.popular-img-flex img{
+   width: 25%;
+  padding: 15px;
+   
+  
+}
+
+.lorem-para{
+    font-size: 2rem;
+}
+
+.tags{
+height: 20rem;
+background-color: white;
+}
+
+.travel-div{
+    margin-top: 2rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.div-second{
+    margin-top: 2rem;
+    
+}
+
+.travel{
+background-color: black !important;
+color: white;
+font-size: 1.2rem;
+    padding:  .5rem 2rem;
+    margin-left: .5rem;
+    display: inline-block;
+}
+
+
+.new-york{
+    background-color: rgb(227, 227, 227);
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    margin-left: .5rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+  
+}
+
+
+.footer-section{
+    background-color: rgb(54, 52, 52);
+    color: white;
+    height: 150px;
+    margin-top: 5rem;
+}
+
+
+
+.footer-section a{
+    color: white;
+}
+
+.previous{
+
+    width: 12rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    background-color: rgb(79, 77, 77);
+    color: white;
+    border: none;
+
+ 
+
+}
+
+.previous:hover{
+    background-color: rgb(157, 152, 152);
+
+}
+
+.Next{
+    width: 10rem;
+    font-size: 1.6rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.Next:hover{
+    background-color: white;
+    color: black;
+}
+
+.para-power{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+
+
+/* ...............
+
+media query................ */
+
+@media (max-width:992px){
+
+    .all-flex-section{
+        display: flex;
+        flex-direction: column;
+     
+      }
+
+
+
+    .title{
+        width: 100%;
+    background-color: white;
+    
+    }
+
+    .tags{
+        height: 15rem;
+        }
+        
+}
